@@ -1,0 +1,32 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the solve function below.
+def solve(meal_cost, tip_percent, tax_percent):
+
+    if __name__ == '__main__':
+    
+
+        tip = meal_cost * tip_percent / 100
+        tax = meal_cost * tax_percent / 100
+        total_cost = int(round(meal_cost + tax + tip))
+
+    return total_cost
+
+cost_meal = input()
+tip = input()
+tax = input()
+print(solve(float(cost_meal), int(tip), int(tax)))
+
+
+
+
+#key lessons
+#1 NEVER TAKE USER INPUT IN THE BODY OF FUNCTION DEFINITION
+#2 ALWAYS TAKE IT OUTSIDE THE BODY
+#3 each function has its own inputs make sure you pass correct inputs(data types) while calling the functions
